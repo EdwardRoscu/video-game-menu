@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="main_anchor" prefHeight="720" prefWidth="1280" stylesheets="styling/settings.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SettingsController">
+      <Text fx:id="titleText" text="Settings" AnchorPane.leftAnchor="550.0" AnchorPane.topAnchor="50.0" />
+      <AnchorPane AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="150.0">
+            <Text fx:id="volumeText" text="Volume" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="90.0" />
+            <Slider fx:id="volumeSlider" blockIncrement="1.0" layoutX="477.0" layoutY="93.0" prefWidth="500.0" AnchorPane.bottomAnchor="93.0" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="93.0" />
+      </AnchorPane>
+      <AnchorPane AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="300.0">
+            <Text fx:id="brightnessText" text="Brightness" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="90.0" />
+            <Slider fx:id="brightnessSlider" blockIncrement="1.0" layoutX="430.0" layoutY="93.0" min="-100.0" prefWidth="500.0" AnchorPane.bottomAnchor="93.0" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="93.0" />
+      </AnchorPane>
+      <AnchorPane AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0">
+         <Button mnemonicParsing="false" onAction="#backButtonAction" text="Back" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" />
+         <Button mnemonicParsing="false" onAction="#saveButtonAction" text="Save" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      </AnchorPane>
+</AnchorPane>

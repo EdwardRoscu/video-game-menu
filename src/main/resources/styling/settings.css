@@ -1,0 +1,34 @@
+.button {
+    -fx-background-radius: 5;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 36;
+}
+
+.button:hover{
+    -fx-background-color: rgba(25,25,25,0.7);
+}
+
+.button:pressed {
+    -fx-background-color: rgba(0,0,0,0.7);
+}
+
+#main_anchor {
+    -fx-background-image: url("images/main_menu.jpeg");
+}
+
+#titleText {
+    -fx-alignment: center;
+    -fx-fill: white;
+    -fx-font-size: 48;
+}
+
+#volumeText {
+    -fx-fill: white;
+    -fx-font-size: 36;
+}
+
+#brightnessText {
+    -fx-fill: white;
+    -fx-font-size: 36;
+}

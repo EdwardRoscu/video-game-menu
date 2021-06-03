@@ -1,0 +1,35 @@
+.button {
+    -fx-background-radius: 5;
+    -fx-background-color: linear-gradient(to right, rgba(0,0,0,1) , rgba(0,0,0,0.2));
+    -fx-text-fill: white;
+    -fx-font-size: 36;
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(to right, rgba(30,30,30,1) , rgba(30,30,30,0.2));
+}
+
+.button:pressed {
+    -fx-background-color: rgba(0,0,0,0.7);
+}
+
+#main_anchor {
+    -fx-background-image: url("images/main_menu.jpeg");
+}
+
+#choosePlayerButton {
+    -fx-background-color: transparent;
+}
+
+#choosePlayerButton:hover {
+    -fx-background-color: rgba(25,25,25,0.7);
+}
+
+#choosePlayerButton:pressed {
+    -fx-background-color: rgba(0,0,0,0.7);
+}
+
+#titleText {
+    -fx-fill: white;
+    -fx-font-size: 64;
+}

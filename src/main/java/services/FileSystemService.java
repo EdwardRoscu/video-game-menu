@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class FileSystemService {
 
-    public static String APPLICATION_FOLDER = ".choose-your-own-adventure";
+    public static String APPLICATION_FOLDER = ".video-game-menu";
     private static final String USER_FOLDER = System.getProperty("user.home");
     private static final File settingsFile = new File(String.valueOf(getPathToFile("GameTitle.ini")));
 

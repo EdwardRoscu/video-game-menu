@@ -9,7 +9,9 @@ This is a simple video game menu that provides:
 - the ability to choose a save file to play (In Progress)
 
 Settings are stored inside an automatically generated .ini file
+
 Players are stored inside an automatically generated .db file
+
 Both are updated when changes are made and can be find at: 
 
 ```
